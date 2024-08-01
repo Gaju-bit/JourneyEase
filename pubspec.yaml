@@ -1,0 +1,46 @@
+name: journeyeasy_flutter_app
+description: "A new Flutter project."
+
+# Prevents the package from being accidentally published to
+# pub.dev. Remove this line if you wish to publish the package.
+publish_to: "none"
+
+# Defines the version and build number for your application.
+# The version number is in the format X.Y.Z+N.
+# X.Y.Z represents the version, and N is the build number.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+# Dependencies specify other packages that your project needs.
+# Update versions as needed. Use `flutter pub outdated` to see available updates.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Adds the Cupertino Icons font for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Contains recommended lints to encourage good coding practices.
+  flutter_lints: ^2.0.0
+
+flutter:
+  # Ensures the Material Icons font is included in your application.
+  uses-material-design: true
+
+  # Adds assets to your application. Specify the path to the asset files.
+  assets:
+    - assets/images/
+
+  # Uncomment and configure this section if you want to add custom fonts to your application.
+  # fonts:
+  #   - family: YourFontFamily
+  #     fonts:
+  #       - asset: fonts/YourFont-Regular.ttf
+  #       - asset: fonts/YourFont-Bold.ttf
+  #         weight: 700
